@@ -1,12 +1,12 @@
 # Bootstrap 3 for Sass
-[![Gem Version](https://badge.fury.io/rb/bootstrap-sass.svg)](http://badge.fury.io/rb/bootstrap-sass)
-[![npm version](https://img.shields.io/npm/v/bootstrap-sass.svg?style=flat)](https://www.npmjs.com/package/bootstrap-sass)
-[![Bower Version](https://badge.fury.io/bo/bootstrap-sass.svg)](http://badge.fury.io/bo/bootstrap-sass)
-[![Build Status](https://img.shields.io/travis/twbs/bootstrap-sass.svg)](https://travis-ci.org/twbs/bootstrap-sass)
+[![Gem Version](https://badge.fury.io/rb/bootstrap-sass.svg)](http://badge.fury.io/rb/bootstrap-sass) !NOT AVAILABLE YET
+[![npm version](https://img.shields.io/npm/v/bootstrap-sass.svg?style=flat)](https://www.npmjs.com/package/bootstrap-sass) !NOT AVAILABLE YET
+[![Bower Version](https://badge.fury.io/bo/bootstrap-sass.svg)](http://badge.fury.io/bo/bootstrap-sass) !NOT AVAILABLE YET
+[![Build Status](https://img.shields.io/travis/entreprise7pro/bootstrap-sass.svg)](https://travis-ci.org/entreprise7pro/bootstrap-sass) !NOT AVAILABLE YET
 
-`bootstrap-sass` is a Sass-powered version of [Bootstrap](https://github.com/twbs/bootstrap) 3, ready to drop right into your Sass powered applications.
+`bootstrap-sass` is a Sass-powered version of [Bootstrap](https://github.com/entreprise/bootstrap) 3, ready to drop right into your Sass powered applications.
 
-This is Bootstrap **3**. For Bootstrap **4** use the [Bootstrap rubygem](https://github.com/twbs/bootstrap-rubygem) if you use Ruby, and the [main repo](https://github.com/twbs/bootstrap) otherwise.
+This is Bootstrap **3**. For Bootstrap **4 or 5** see [main repo](https://github.com/twbs/bootstrap).
 
 ## Installation
 
@@ -23,7 +23,7 @@ Please see the appropriate guide for your environment of choice:
 In your Gemfile you need to add the `bootstrap-sass` gem, and ensure that the `sass-rails` gem is present - it is added to new Rails applications by default.
 
 ```ruby
-gem 'bootstrap-sass', '~> 3.4.1'
+gem 'bootstrap-sass', '~> 3.4.2'
 gem 'sassc-rails', '>= 2.1.0'
 ```
 
@@ -311,7 +311,7 @@ Keeping bootstrap-sass in sync with upstream changes from Bootstrap used to be a
 
 Upstream changes to the Bootstrap project can now be pulled in using the `convert` rake task.
 
-Here's an example run that would pull down the master branch from the main [twbs/bootstrap](https://github.com/twbs/bootstrap) repo:
+Here's an example run that would pull down the master branch from the main [entreprise7pro/bootstrap](https://github.com/entreprise7pro/bootstrap) repo:
 
     rake convert
 
@@ -335,7 +335,7 @@ Please submit GitHub issues tagged with `conversion`.
 bootstrap-sass has a number of major contributors:
 
 <!-- feel free to make these link wherever you wish -->
-* [Thomas McDonald](https://twitter.com/thomasmcdonald_)
+* [Thomas McDonald](https://x.com/thomasmcdonald_)
 * [Tristan Harward](http://www.trisweb.com)
 * Peter Gumeson
 * [Gleb Mazovetskiy](https://github.com/glebm)
@@ -348,10 +348,10 @@ bootstrap-sass is used to build some awesome projects all over the web, includin
 Michael Hartl's [Rails Tutorial](https://www.railstutorial.org/), [gitlabhq](http://gitlabhq.com/) and
 [kandan](http://getkandan.com/).
 
-[converter]: https://github.com/twbs/bootstrap-sass/blob/master/tasks/converter/less_conversion.rb
-[version]: https://github.com/twbs/bootstrap-sass/blob/master/lib/bootstrap-sass/version.rb
-[contrib]: https://github.com/twbs/bootstrap-sass/graphs/contributors
-[antirequire]: https://github.com/twbs/bootstrap-sass/issues/79#issuecomment-4428595
+[converter]: https://github.com/entreprise7pro/bootstrap-sass/blob/master/tasks/converter/less_conversion.rb
+[version]: https://github.com/entreprise7pro/bootstrap-sass/blob/master/lib/bootstrap-sass/version.rb
+[contrib]: https://github.com/entreprise7pro/bootstrap-sass/graphs/contributors
+[antirequire]: https://github.com/entreprise7pro/bootstrap-sass/issues/79#issuecomment-4428595
 [jsdocs]: https://getbootstrap.com/javascript/#transitions
 [sass-precision]: http://sass-lang.com/documentation/Sass/Script/Value/Number.html#precision%3D-class_method
 [mincer]: https://github.com/nodeca/mincer
