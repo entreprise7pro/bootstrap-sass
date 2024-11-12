@@ -5,25 +5,8 @@
     "homepage": "http://github.com/entreprise7pro/bootstrap-sass",
     "authors": [
         {
-            "name": "Joseph Olstad"
-        },
-        {
-            "name": "Thomas McDonald"
-        },
-        {
-            "name": "Tristan Harward"
-        },
-        {
-            "name": "Peter Gumeson"
-        },
-        {
-            "name": "Gleb Mazovetskiy"
-        },
-        {
-            "name": "Mark Otto"
-        },
-        {
-            "name": "Jacob Thornton"
+            "name": "Joseph Olstad",
+            "email": "joseph.olstad@1321830.no-reply.drupal.org"
         }
     ],
     "support": {
