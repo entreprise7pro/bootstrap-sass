@@ -34,7 +34,7 @@ Import Bootstrap styles in `app/assets/stylesheets/application.scss`:
 ```scss
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
-@import "bootstrap";
+@import "entreprise7pro-bootstrap";
 ```
 
 `bootstrap-sprockets` must be imported before `bootstrap` for the icon fonts to work.
@@ -93,8 +93,8 @@ Replace Bootstrap `@import` statements in `application.scss` with:
 
 ```scss
 $icon-font-path: "bootstrap-sass/assets/fonts/bootstrap/";
-@import "bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
-@import "bootstrap-sass/assets/stylesheets/bootstrap";
+@import "entreprise7pro-bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+@import "entreprise7pro-bootstrap-sass/assets/stylesheets/bootstrap";
 ```
 
 Replace Bootstrap `require` directive in `application.js` with:
@@ -133,7 +133,7 @@ In `application.css.ejs.scss` (NB **.css.ejs.scss**):
 ```scss
 // Import mincer asset paths helper integration
 @import "bootstrap-mincer";
-@import "bootstrap";
+@import "entreprise7pro-bootstrap";
 ```
 
 In `application.js`:
@@ -233,7 +233,7 @@ When using bootstrap-sass with Compass, Sprockets, or Mincer, you **must** impor
 
 ```scss
 @import "bootstrap-compass";
-@import "bootstrap";
+@import "entreprise7pro-bootstrap";
 ```
 
 ## Usage
@@ -243,13 +243,13 @@ When using bootstrap-sass with Compass, Sprockets, or Mincer, you **must** impor
 Import Bootstrap into a Sass file (for example, `application.scss`) to get all of Bootstrap's styles, mixins and variables!
 
 ```scss
-@import "bootstrap";
+@import "entreprise7pro-bootstrap";
 ```
 
 You can also include optional Bootstrap theme:
 
 ```scss
-@import "bootstrap/theme";
+@import "entreprise7pro-bootstrap/theme";
 ```
 
 The full list of Bootstrap variables can be found [here](https://getbootstrap.com/customize/#less-variables). You can override these by simply redefining the variable before the `@import` directive, e.g.:
@@ -259,7 +259,7 @@ $navbar-default-bg: #312312;
 $light-orange: #ff8c00;
 $navbar-default-color: $light-orange;
 
-@import "bootstrap";
+@import "entreprise7pro-bootstrap";
 ```
 
 ### Eyeglass
@@ -267,15 +267,15 @@ $navbar-default-color: $light-orange;
 Bootstrap is available as an [Eyeglass](https://github.com/sass-eyeglass/eyeglass) module. After installing Bootstrap via NPM you can import the Bootstrap library via:
 
 ```scss
-@import "bootstrap-sass/bootstrap"
+@import "entreprise7pro-bootstrap-sass/bootstrap"
 ```
 
 or import only the parts of Bootstrap you need:
 
 ```scss
-@import "bootstrap-sass/bootstrap/variables";
-@import "bootstrap-sass/bootstrap/mixins";
-@import "bootstrap-sass/bootstrap/carousel";
+@import "entreprise7pro-bootstrap-sass/bootstrap/variables";
+@import "entreprise7pro-bootstrap-sass/bootstrap/mixins";
+@import "entreprise7pro-bootstrap-sass/bootstrap/carousel";
 ```
 
 ## Version
