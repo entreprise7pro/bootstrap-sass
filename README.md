@@ -332,7 +332,11 @@ Please submit GitHub issues tagged with `conversion`.
 
 ## Credits
 
-bootstrap-sass has a number of major contributors:
+Current contributors:
+
+* [Joseph Olstad](https://drupal.org/u/josepholstad)
+
+Former contributors:
 
 <!-- feel free to make these link wherever you wish -->
 * [Thomas McDonald](https://x.com/thomasmcdonald_)
