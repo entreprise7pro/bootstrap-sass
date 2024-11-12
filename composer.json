@@ -1,9 +1,12 @@
 {
-    "name": "twbs/bootstrap-sass",
+    "name": "entreprise7pro/bootstrap-sass",
     "description": "bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.",
     "keywords": ["bootstrap", "css", "sass"],
-    "homepage": "http://github.com/twbs/bootstrap-sass",
+    "homepage": "http://github.com/entreprise7pro/bootstrap-sass",
     "authors": [
+        {
+            "name": "Joseph Olstad"
+        },
         {
             "name": "Thomas McDonald"
         },
@@ -24,7 +27,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/twbs/bootstrap-sass/issues"
+        "issues": "https://github.com/entreprise7pro/bootstrap-sass/issues"
     },
     "license": "MIT",
     "extra": {

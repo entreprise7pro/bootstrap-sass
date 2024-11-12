@@ -2,13 +2,12 @@
 
 //
 // 1. Set default font family to sans-serif.
-// 2. Prevent iOS and IE text size adjust after device orientation change,
+// 2. Prevent iOS text size adjust after device orientation change,
 //    without disabling user zoom.
 //
 
 html {
   font-family: sans-serif; // 1
-  -ms-text-size-adjust: 100%; // 2
   -webkit-text-size-adjust: 100%; // 2
 }
 
@@ -24,10 +23,7 @@ body {
 // ==========================================================================
 
 //
-// Correct `block` display not defined for any HTML5 element in IE 8/9.
-// Correct `block` display not defined for `details` or `summary` in IE 10/11
-// and Firefox.
-// Correct `block` display not defined for `main` in IE 11.
+// Correct `block` display not defined for `details` or `summary` in Firefox
 //
 
 article,
@@ -47,7 +43,7 @@ summary {
 }
 
 //
-// 1. Correct `inline-block` display not defined in IE 8/9.
+// 1. Correct `inline-block` display not defined.
 // 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
 //
 
@@ -70,8 +66,7 @@ audio:not([controls]) {
 }
 
 //
-// Address `[hidden]` styling not present in IE 8/9/10.
-// Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+// Hide the `template` element in Safari, and Firefox < 22.
 //
 
 [hidden],
@@ -83,7 +78,7 @@ template {
 // ==========================================================================
 
 //
-// Remove the gray background color from active links in IE 10.
+// Remove the gray background color from active links.
 //
 
 a {
@@ -105,7 +100,7 @@ a:hover {
 
 //
 // 1. Remove the bottom border in Chrome 57- and Firefox 39-.
-// 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+// 2. Add the correct text decoration in Chrome, Edge, Opera, and Safari.
 //
 
 abbr[title] {
@@ -142,7 +137,7 @@ h1 {
 }
 
 //
-// Address styling not present in IE 8/9.
+// Address styling that may not be present in some older browsers.
 //
 
 mark {
@@ -182,7 +177,7 @@ sub {
 // ==========================================================================
 
 //
-// Remove border when inside `a` element in IE 8/9/10.
+// Remove border when inside `a` element in some older browsers.
 //
 
 img {
@@ -190,7 +185,7 @@ img {
 }
 
 //
-// Correct overflow not hidden in IE 9/10/11.
+// Correct overflow not hidden in some older browsers.
 //
 
 svg:not(:root) {
@@ -201,7 +196,7 @@ svg:not(:root) {
 // ==========================================================================
 
 //
-// Address margin not present in IE 8/9 and Safari.
+// Address margin not present in Safari.
 //
 
 figure {
@@ -263,7 +258,7 @@ textarea {
 }
 
 //
-// Address `overflow` set to `hidden` in IE 8/9/10/11.
+// Address `overflow` set to `hidden` in some older browsers.
 //
 
 button {
@@ -273,7 +268,7 @@ button {
 //
 // Address inconsistent `text-transform` inheritance for `button` and `select`.
 // All other form control elements do not inherit `text-transform` values.
-// Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+// Correct `button` style inheritance in Firefox and Opera.
 // Correct `select` style inheritance in Firefox.
 //
 
@@ -330,8 +325,8 @@ input {
 // It's recommended that you don't attempt to style these elements.
 // Firefox's implementation doesn't respect box-sizing, padding, or width.
 //
-// 1. Address box sizing set to `content-box` in IE 8/9/10.
-// 2. Remove excess padding in IE 8/9/10.
+// 1. Address box sizing set to `content-box` in some older browsers.
+// 2. Remove excess padding in some older browsers.
 //
 
 input[type="checkbox"],
@@ -383,7 +378,7 @@ fieldset {
 }
 
 //
-// 1. Correct `color` not being inherited in IE 8/9/10/11.
+// 1. Correct `color` not being inherited in some older browsers.
 // 2. Remove padding so people aren't caught out if they zero out fieldsets.
 //
 
@@ -393,7 +388,7 @@ legend {
 }
 
 //
-// Remove default vertical scrollbar in IE 8/9/10/11.
+// Remove default vertical scrollbar in some older browsers.
 //
 
 textarea {

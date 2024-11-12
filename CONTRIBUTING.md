@@ -16,7 +16,7 @@ repository. Good bug reports are extremely helpful - thank you!
 Guidelines for bug reports:
 
 1. **Does it belong here?** &mdash; is this a problem with bootstrap-sass, or
-   it an issue with [twbs/bootstrap](https://github.com/twbs/bootstrap)?
+   it an issue with [entreprise7pro/bootstrap](https://github.com/entreprise7pro/bootstrap)?
    We only distribute a direct port and will not modify files if they're not
    changed upstream.
 
@@ -50,7 +50,7 @@ Example:
 > causing the bug, and potential solutions (and your opinions on their
 > merits).
 
-**[File a bug report](https://github.com/twbs/bootstrap-sass/issues/)**
+**[File a bug report](https://github.com/entreprise7pro/bootstrap-sass/issues/)**
 
 
 ## Pull requests
@@ -59,7 +59,7 @@ Example:
 
 We use a [converter script][converter-readme] to automatically convert upstream bootstrap, written in LESS, to Sass.
 
-Issues related to styles or javascript but unrelated to the conversion process should go to [twbs/bootstrap][upstream].
+Issues related to styles or javascript but unrelated to the conversion process should go to [entreprise7pro/bootstrap][upstream].
 
 Pull requests that fix bugs caused by our code should not modify the SCSS directly, but should patch the converter instead.
 
@@ -82,5 +82,5 @@ discussion on topic and respect the opinions of others.
 
 *props [html5-boilerplate](https://github.com/h5bp/html5-boilerplate/blob/master/CONTRIBUTING.md)*
 
-[upstream]: https://github.com/twbs/bootstrap
-[converter-readme]: https://github.com/twbs/bootstrap-sass/blob/master/README.md#upstream-converter
+[upstream]: https://github.com/entreprise7pro/bootstrap
+[converter-readme]: https://github.com/entreprise7pro/bootstrap-sass/blob/master/README.md#upstream-converter

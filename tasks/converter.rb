@@ -34,7 +34,7 @@ class Converter
   include JsConversion
   include FontsConversion
 
-  def initialize(repo: 'twbs/bootstrap', branch: 'master', save_to: {}, cache_path: 'tmp/converter-cache-bootstrap')
+  def initialize(repo: 'entreprise7pro/bootstrap', branch: 'master', save_to: {}, cache_path: 'tmp/converter-cache-bootstrap')
     @logger     = Logger.new
     @repo       = repo
     @branch     = branch || 'master'

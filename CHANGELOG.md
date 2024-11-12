@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.4.4 (jQuery v4 support)
+
+* jQuery v4 compatibility
+* Drop IE support
+* Upgrade to https://github.com/entreprise7pro/bootstrap v3.4.2 instead of twbs/bootstrap v3.4.1
+
 ## 3.4.3 (non-ruby only)
 
 * Fix malformed `math.div` expressions. [#1225](https://github.com/twbs/bootstrap-sass/pull/1225)

@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-sass",
-  "version": "3.4.3",
+  "version": "3.4.4",
   "description": "bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.",
   "main": "assets/javascripts/bootstrap.js",
   "style": "assets/stylesheets/_bootstrap.scss",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/twbs/bootstrap-sass"
+    "url": "git://github.com/entreprise7pro/bootstrap-sass"
   },
   "keywords": [
     "bootstrap",
@@ -23,14 +23,15 @@
     "eyeglass-module"
   ],
   "contributors": [
-    "Thomas McDonald",
-    "Tristan Harward",
-    "Peter Gumeson",
-    "Gleb Mazovetskiy"
+    "Joseph Olstad (entreprise7pro contributor)",
+    "Thomas McDonald (twbs contributor)",
+    "Tristan Harward (twbs contributor)",
+    "Peter Gumeson (twbs contributor)",
+    "Gleb Mazovetskiy (twbs contributor)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap-sass/issues"
+    "url": "https://github.com/entreprise7pro/bootstrap-sass/issues"
   },
   "devDependencies": {
     "sass": "^1.33",
