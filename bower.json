@@ -1,7 +1,8 @@
 {
   "name": "bootstrap-sass",
-  "homepage": "https://github.com/twbs/bootstrap-sass",
+  "homepage": "https://github.com/entreprise7pro/bootstrap-sass",
   "authors": [
+    "Joseph Olstad",
     "Thomas McDonald",
     "Tristan Harward",
     "Peter Gumeson",
@@ -15,6 +16,7 @@
   ],
   "keywords": [
     "twbs",
+    "entreprise7pro",
     "bootstrap",
     "sass"
   ],
@@ -32,5 +34,5 @@
   "dependencies": {
     "jquery": "1.9.1 - 4"
   },
-  "version": "3.4.2"
+  "version": "3.4.3"
 }

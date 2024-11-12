@@ -1,7 +1,9 @@
 /* ========================================================================
- * Bootstrap: modal.js v3.4.2
+ * Bootstrap: modal.js v3.4.3
  * https://bootstrap.7pro.ca/docs/3.4/javascript/#modals
  * ========================================================================
+ * Copyright 2024 Entreprise 7pro.ca Inc.
+ * Licensed under MIT (https://github.com/entreprise7pro/bootstrap/blob/v3-dev/LICENSE)
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/v3-dev/LICENSE)
  * ======================================================================== */
@@ -34,7 +36,7 @@
     }
   }
 
-  Modal.VERSION = '3.4.1'
+  Modal.VERSION = '3.4.3'
 
   Modal.TRANSITION_DURATION = 300
   Modal.BACKDROP_TRANSITION_DURATION = 150

@@ -1,7 +1,7 @@
 require_relative 'char_string_scanner'
 require 'bootstrap-sass/version'
 
-# This is the script used to automatically convert all of twbs/bootstrap LESS to Sass.
+# This is the script used to automatically convert all of entreprise7pro/bootstrap LESS to Sass.
 #
 # Most differences are fixed by regexps and other forms of string substitution.
 # There are Bootstrap-specific workarounds for the lack of parent selectors, recursion, mixin namespaces, extend within @media, etc in Sass 3.2.

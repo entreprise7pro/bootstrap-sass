@@ -1,8 +1,9 @@
 /* ========================================================================
- * Bootstrap: collapse.js v3.4.2
+ * Bootstrap: collapse.js v3.4.3
  * https://bootstrap.7pro.ca/docs/3.4/javascript/#collapse
  * ========================================================================
  * Copyright 2024 Entreprise 7pro.ca Inc.
+ * Licensed under MIT (https://github.com/entreprise7pro/bootstrap/blob/v3-dev/LICENSE)
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/entreprise7pro/bootstrap/blob/v3-dev/LICENSE)
  * ======================================================================== */
@@ -31,7 +32,7 @@
     if (this.options.toggle) this.toggle()
   }
 
-  Collapse.VERSION  = '3.4.2'
+  Collapse.VERSION  = '3.4.3'
 
   Collapse.TRANSITION_DURATION = 350
 

@@ -1,7 +1,9 @@
 /* ========================================================================
- * Bootstrap: carousel.js v3.4.2
+ * Bootstrap: carousel.js v3.4.3
  * https://bootstrap.7pro.ca/docs/3.4/javascript/#carousel
  * ========================================================================
+ * Copyright 2024 Entreprise 7pro.ca Inc.
+ * Licensed under MIT (https://github.com/entreprise7pro/bootstrap/blob/v3-dev/LICENSE)
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/v3-dev/LICENSE)
  * ======================================================================== */
@@ -30,7 +32,7 @@
       .on('mouseleave.bs.carousel', $.proxy(this.cycle, this))
   }
 
-  Carousel.VERSION  = '3.4.2'
+  Carousel.VERSION  = '3.4.3'
 
   Carousel.TRANSITION_DURATION = 600
 
