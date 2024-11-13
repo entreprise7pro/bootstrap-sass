@@ -1,8 +1,11 @@
 # Bootstrap 3 for Sass
 [![Gem Version](https://badge.fury.io/rb/entreprise7pro-bootstrap-sass.svg)](http://badge.fury.io/rb/entreprise7pro-bootstrap-sass) Ready!
 [![npm version](https://img.shields.io/npm/v/entreprise7pro-bootstrap-sass.svg?style=flat)](https://www.npmjs.com/package/entreprise7pro-bootstrap-sass) Ready!
-[![Bower Version](https://badge.fury.io/bo/entreprise7pro-bootstrap-sass.svg)](http://badge.fury.io/bo/entreprise7pro-bootstrap-sass) TBD
 [![Build Status](https://img.shields.io/travis/entreprise7pro/bootstrap-sass.svg)](https://travis-ci.org/entreprise7pro/bootstrap-sass) TDB
+
+###Bower instructions
+
+`bower install entreprise7pro/bootstrap-sass --save`
 
 `bootstrap-sass` is a Sass-powered version of [Bootstrap](https://github.com/entreprise/bootstrap) 3, ready to drop right into your Sass powered applications.
 
