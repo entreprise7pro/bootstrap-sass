@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.4.5 (jQuery v4 support)
+
+* gem publishing
+
 ## 3.4.4 (jQuery v4 support)
 
 * jQuery v4 compatibility
