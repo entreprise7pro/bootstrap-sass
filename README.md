@@ -7,7 +7,8 @@
 
 `bower install entreprise7pro/bootstrap-sass --save`
 
-`bootstrap-sass` is a Sass-powered version of [Bootstrap](https://github.com/entreprise/bootstrap) 3, ready to drop right into your Sass powered applications.
+
+`bootstrap-sass` is a Sass-powered version of [Bootstrap](https://github.com/entreprise7pro/bootstrap) 3, ready to drop right into your Sass powered applications.
 
 This is Bootstrap **3**. For Bootstrap **4 or 5** see [main repo](https://github.com/twbs/bootstrap).
 
