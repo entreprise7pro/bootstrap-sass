@@ -330,6 +330,15 @@ The latest converter script is located [here][converter] and does the following:
 This converter fully converts original LESS to SCSS. Conversion is automatic but requires instructions for certain transformations (see converter output).
 Please submit GitHub issues tagged with `conversion`.
 
+## Maintenance of this build.
+
+## Compiling bootstrap-sass
+
+* npm install
+* sudo apt install libyaml-dev
+* bundle config set path 'vendor/bundle'
+* bundle install
+
 ## Credits
 
 Current contributors:
