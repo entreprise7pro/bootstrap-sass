@@ -34,12 +34,15 @@
     "url": "https://github.com/entreprise7pro/bootstrap-sass/issues"
   },
   "devDependencies": {
-    "sass": "^1.33",
+    "ejs": "~2.6.1",
     "mincer": "~1.4.0",
-    "ejs": "~2.6.1"
+    "sass": "^1.33"
   },
   "eyeglass": {
     "exports": "eyeglass-exports.js",
     "needs": "^0.7.1"
+  },
+  "dependencies": {
+    "jquery": "^4.0.0-beta.2"
   }
 }
