@@ -335,6 +335,7 @@ Please submit GitHub issues tagged with `conversion`.
 Current contributors:
 
 * [Joseph Olstad](https://drupal.org/u/josepholstad)
+* [Stephen Mulvihill](https://drupal.org/u/smulvih2)
 
 Former contributors:
 
