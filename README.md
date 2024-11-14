@@ -3,9 +3,15 @@
 [![npm version](https://img.shields.io/npm/v/entreprise7pro-bootstrap-sass.svg?style=flat)](https://www.npmjs.com/package/entreprise7pro-bootstrap-sass) Ready!
 [![Build Status](https://img.shields.io/travis/entreprise7pro/bootstrap-sass.svg)](https://travis-ci.org/entreprise7pro/bootstrap-sass) TDB
 
-###Bower instructions
+### Bower instructions
 
-`bower install entreprise7pro/bootstrap-sass --save`
+- `bower install entreprise7pro/bootstrap-sass --save`
+
+### Composer instructions
+
+- `composer require entreprise7pro/bootstrap-sass`
+- https://packagist.org/packages/entreprise7pro/bootstrap-sass
+- https://packagist.org/packages/entreprise7pro/bootstrap
 
 
 `bootstrap-sass` is a Sass-powered version of [Bootstrap](https://github.com/entreprise7pro/bootstrap) 3, ready to drop right into your Sass powered applications.
