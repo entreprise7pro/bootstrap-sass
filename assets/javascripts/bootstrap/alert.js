@@ -1,5 +1,5 @@
 /* ========================================================================
- * Bootstrap: alert.js v3.4.3
+ * Bootstrap: alert.js v3.4.4
  * https://bootstrap.7pro.ca/docs/3.4/javascript/#alerts
  * ========================================================================
  * Copyright 2024 Entreprise 7pro.ca Inc.
@@ -20,7 +20,7 @@
     $(el).on('click', dismiss, this.close)
   }
 
-  Alert.VERSION = '3.4.3'
+  Alert.VERSION = '3.4.4'
 
   Alert.TRANSITION_DURATION = 150
 

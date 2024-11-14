@@ -1,5 +1,5 @@
 /* ========================================================================
- * Bootstrap: button.js v3.4.3
+ * Bootstrap: button.js v3.4.4
  * https://bootstrap.7pro.ca/docs/3.4/javascript/#buttons
  * ========================================================================
  * Copyright 2024 Entreprise 7pro.ca Inc.
@@ -21,7 +21,7 @@
     this.isLoading = false
   }
 
-  Button.VERSION  = '3.4.3'
+  Button.VERSION = '3.4.4'
 
   Button.DEFAULTS = {
     loadingText: 'loading...'
