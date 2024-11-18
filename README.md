@@ -28,12 +28,12 @@ Please see the appropriate guide for your environment of choice:
 
 ### a. Ruby on Rails
 
-`bootstrap-sass` is easy to drop into Rails with the asset pipeline.
+`entreprise7pro-bootstrap-sass` is easy to drop into Rails with the asset pipeline.
 
-In your Gemfile you need to add the `bootstrap-sass` gem, and ensure that the `sass-rails` gem is present - it is added to new Rails applications by default.
+In your Gemfile you need to add the `entreprise7pro-bootstrap-sass` gem, and ensure that the `sass-rails` gem is present - it is added to new Rails applications by default.
 
 ```ruby
-gem 'bootstrap-sass', '~> 3.4.2'
+gem 'entreprise7pro-bootstrap-sass', '~> 3.4.7'
 gem 'sassc-rails', '>= 2.1.0'
 ```
 
@@ -80,12 +80,12 @@ Require Bootstrap Javascripts in `app/assets/javascripts/application.js`:
 
 `bootstrap-sprockets` and `bootstrap` [should not both be included](https://github.com/twbs/bootstrap-sass/issues/829#issuecomment-75153827) in `application.js`.
 
-`bootstrap-sprockets` provides individual Bootstrap Javascript files (`alert.js` or `dropdown.js`, for example), while
-`bootstrap` provides a concatenated file containing all Bootstrap Javascripts.
+`bootstrap-sprockets` provides individual Bootstrap Javascript files (`alert.js` or `dropdown.js`, for example), while (TBD!)
+`entreprise7pro-bootstrap` provides a concatenated file containing all Bootstrap Javascripts.
 
 #### Bower with Rails
 
-When using [bootstrap-sass Bower package](#c-bower) instead of the gem in Rails, configure assets in `config/application.rb`:
+When using [entreprise7pro-bootstrap-sass Bower package](#c-bower) instead of the gem in Rails, configure assets in `config/application.rb`:
 
 ```ruby
 # Bower asset paths
@@ -119,14 +119,14 @@ Please make sure `sprockets-rails` is at least v2.1.4.
 
 #### Rails 3.2.x
 
-bootstrap-sass is no longer compatible with Rails 3. The latest version of bootstrap-sass compatible with Rails 3.2 is v3.1.1.0.
+entreprise7pro-bootstrap-sass is not longer compatible with Rails 3. The latest version of bootstrap-sass compatible with Rails 3.2 is v3.1.1.0.
 
 ### b. Bower
 
-bootstrap-sass Bower package is compatible with node-sass 3.2.0+. You can install it with:
+entreprise7pro-bootstrap-sass Bower package is compatible with node-sass 3.2.0+. You can install it with:
 
 ```console
-$ bower install bootstrap-sass
+$ bower install entreprise7pro-bootstrap-sass
 ```
 
 Sass, JS, and all other assets are located at [assets](/assets).
@@ -156,7 +156,7 @@ See also this [example manifest.js](/test/dummy_node_mincer/manifest.js) for min
 
 ### c. npm / Node.js
 ```console
-$ npm install bootstrap-sass
+$ npm install entreprise7pro-bootstrap-sass
 ```
 
 
@@ -239,7 +239,7 @@ The fonts are referenced as:
 
 `$icon-font-path` defaults to `bootstrap/` if asset path helpers are used, and `../fonts/bootstrap/` otherwise.
 
-When using bootstrap-sass with Compass, Sprockets, or Mincer, you **must** import the relevant path helpers before Bootstrap itself, for example:
+When using entreprise7pro-bootstrap-sass with Compass, Sprockets, or Mincer, you **must** import the relevant path helpers before Bootstrap itself, for example:
 
 ```scss
 @import "bootstrap-compass";
