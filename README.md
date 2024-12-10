@@ -26,6 +26,11 @@ Please see the appropriate guide for your environment of choice:
 * [Bower](#b-bower).
 * [npm / Node.js](#c-npm--nodejs).
 
+## Building for gem
+
+ * `gem build entreprise7pro-bootstrap-sass.gemspec`
+ * `gem push entreprise7pro-bootstrap-sass.3.[0-9].[0-9]`
+
 ### a. Ruby on Rails
 
 `entreprise7pro-bootstrap-sass` is easy to drop into Rails with the asset pipeline.
