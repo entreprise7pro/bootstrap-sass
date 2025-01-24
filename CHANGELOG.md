@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.4.8 (jQuery v4 support)
+
+* gem publishing of v3.4.5 bootstrap
+
 ## 3.4.7 (jQuery v4 support)
 
 * gem publishing of v3.4.4 bootstrap

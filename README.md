@@ -344,10 +344,24 @@ Please submit GitHub issues tagged with `conversion`.
 
 ## Compiling bootstrap-sass
 
-* npm install
 * sudo apt install libyaml-dev
+* npm install
 * bundle config set path 'vendor/bundle'
 * bundle install
+
+Alternatively, use a container
+
+* docker build -t entreprise7pro-bootstrap-sass .
+* docker run -it --rm -v $(pwd):/app entreprise7pro-bootstrap-sass
+* npm install
+* rake convert 
+* bundle config set path 'vendor/bundle'
+* bundle install
+
+## Compiling gem build of bootstrap-sass
+
+* gem build entreprise7pro-bootstrap-sass.gemspec
+* gem push entreprise7pro-bootstrap-sass-3.4.8.gem #when satisfied, use the appropriate number 3.4.9 is next.
 
 ## Credits
 
