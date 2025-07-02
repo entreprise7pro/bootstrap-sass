@@ -1,5 +1,5 @@
 /* ========================================================================
- * Bootstrap: collapse.js v3.4.4
+ * Bootstrap: collapse.js v3.4.6
  * https://bootstrap.7pro.ca/docs/3.4/javascript/#collapse
  * ========================================================================
  * Copyright 2024 Entreprise 7pro.ca Inc.
@@ -32,7 +32,7 @@
     if (this.options.toggle) this.toggle()
   }
 
-  Collapse.VERSION = '3.4.4'
+  Collapse.VERSION = '3.4.6'
 
   Collapse.TRANSITION_DURATION = 350
 
@@ -175,7 +175,7 @@
       var data    = $this.data('bs.collapse')
       var options = $.extend({}, Collapse.DEFAULTS, $this.data(), typeof option == 'object' && option)
 
-      if (!data && options.toggle && /show|hide/.test(option)) options.toggle = false
+      if (!data && options.toggle && (typeof option === 'string') && /show|hide/.test(option)) options.toggle = false
       if (!data) $this.data('bs.collapse', (data = new Collapse(this, options)))
       if (typeof option == 'string') data[option]()
     })
