@@ -17,12 +17,17 @@ class Converter
       log_http_get_files contents.keys, full_path, true if contents.keys
       files -= contents.keys
       log_http_get_files files, full_path, false
+
+      mutex = Mutex.new
       files.map do |name|
         Thread.start {
           contents[name] = URI.open("#{full_path}/#{name}").read
-          Thread.exclusive { write_cached_files path, name => contents[name] }
+          mutex.synchronize {
+            write_cached_files path, name => contents[name]
+          }
         }
       end.each(&:join)
+
       contents
     end
 
