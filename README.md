@@ -359,6 +359,7 @@ Alternatively, use a container
 * docker build -t entreprise7pro-bootstrap-sass .
 * docker run -it --rm -v $(pwd):/app entreprise7pro-bootstrap-sass
 * npm install
+* gem install term-ansicolor
 * rake convert 
 * bundle config set path 'vendor/bundle'
 * bundle install
