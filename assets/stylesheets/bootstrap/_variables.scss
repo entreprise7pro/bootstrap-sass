@@ -241,7 +241,7 @@ $cursor-disabled:                not-allowed !default;
 $dropdown-bg:                    #fff !default;
 //** Dropdown menu `border-color`.
 $dropdown-border:                rgba(0, 0, 0, .15) !default;
-//** Dropdown menu `border-color`.
+//** Dropdown menu `border-color` **for IE8**.
 $dropdown-fallback-border:       #ccc !default;
 //** Divider color for between dropdown items.
 $dropdown-divider-bg:            #e5e5e5 !default;
@@ -605,7 +605,7 @@ $modal-title-line-height:     $line-height-base !default;
 $modal-content-bg:                             #fff !default;
 //** Modal content border color
 $modal-content-border-color:                   rgba(0, 0, 0, .2) !default;
-//** Modal content border color fallback.
+//** Modal content border color **for IE8**
 $modal-content-fallback-border-color:          #999 !default;
 
 //** Modal backdrop background color
